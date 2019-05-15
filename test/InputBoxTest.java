@@ -19,7 +19,7 @@ class InputBoxTest {
 	}
 	void testsingleInput()
 	{
-		System.setProperty("webdriver.chrome.driver","/Users/macstudent/Desktop/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/Users/NavjotGill/Desktop/chromedriver");
 		WebDriver driver = new ChromeDriver();
 
 		String baseUrl = "https://www.seleniumeasy.com/test/basic-first-form-demo.html";
@@ -52,7 +52,7 @@ class InputBoxTest {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
 	}
 
 }
